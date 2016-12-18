@@ -19,11 +19,14 @@ a love of thai and vietnamese cuisine, and real japanese Ramen
 some incredible memories
 appreciation for the importance of culture, and the differences and similarities around the world
 new appreciation for flush toilets and clean air
-2 bottles of scotch (Come by for a wee dram after 5)
+
+
 
 
 This is the route we ended up taking. From Singapore to Scotland by train. All told we did well over 11000 miles by train.
 
+[](https://s3-us-west-1.amazonaws.com/andrewdblevins.blog/images/Singapore+to+Scotland/IMG_20160109_134016.jpg)
+Singapore is an interesting place, they have ships on buildings and mountains in domes.
 
 Our first train
 
