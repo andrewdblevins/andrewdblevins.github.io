@@ -25,8 +25,7 @@ new appreciation for flush toilets and clean air
 
 This is the route we ended up taking. From Singapore to Scotland by train. All told we did well over 11000 miles by train.
 
-{% include image.html file="IMG_20160109_134016.jpg" url="https://s3-us-west-1.amazonaws.com/andrewdblevins.blog/images/Singapore+to+Scotland/IMG_20160109_134016.jpg" alt="Singapore" caption="Singapore is an interesting place, they have ships on buildings and mountains in domes.
-" %"}
+{% include image.html file="IMG_20160109_134016.jpg" url="https://s3-us-west-1.amazonaws.com/andrewdblevins.blog/images/Singapore+to+Scotland/IMG_20160109_134016.jpg" alt="Singapore" caption="Singapore is an interesting place, they have ships on buildings and mountains in domes." %}
 
 Our first train
 
