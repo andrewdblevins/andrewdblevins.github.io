@@ -41,6 +41,7 @@ class Monoid:
 ```
 
 We have seen some simple examples of monoids, but it turns out that they can get much more complicated. 
+
 * Matrix Multiplication 
 * Cartesian Products 
 * Statistical Moments
