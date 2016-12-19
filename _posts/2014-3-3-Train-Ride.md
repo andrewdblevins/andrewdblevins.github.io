@@ -27,10 +27,13 @@ This is the route we ended up taking. From Singapore to Scotland by train. All t
 
 {% include image.html file="IMG_20160109_134016.jpg" url="http://d3osapezktt8o5.cloudfront.net/images/Singapore+to+Scotland/IMG_20160109_134016.jpg" alt="Singapore" caption="Singapore is an interesting place, they have ships on buildings and mountains in domes." %}
 
-Our first train
+{% include image.html file="IMG_20160111_082641.jpg" url="http://d3osapezktt8o5.cloudfront.net/images/Singapore+to+Scotland/IMG_20160111_082641.jpg" alt="Singapore" caption="Our first train" %}
 
 
-The view from the place we stayed on Koh Phagnan
+
+{% include image.html file="IMG_20160118_104038.jpg" url="http://d3osapezktt8o5.cloudfront.net/images/Singapore+to+Scotland/IMG_20160118_104038.jpg" alt="Singapore" caption="The beach in Thailand" %}
+
+
 
 
 Angkor Wat. Beautiful but so tragic.
