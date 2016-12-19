@@ -142,7 +142,7 @@ figure {
 
 .sidenote-number:after, .sidenote:before { content: counter(sidenote-counter) " ";
                                            // font-family: et-bembo-roman-old-style;
-                                           color: $contrast-color; //added color 
+                                           color: $darkGray; //added color 
                                            position: relative;
                                            vertical-align: baseline; }
 
@@ -153,7 +153,7 @@ figure {
                          left: 0.1rem; }
 
 .sidenote:before { content: counter(sidenote-counter) ".\000a0"; // this is unicode for a non-breaking space
-                   color: $contrast-color;
+                   color: $darkGray;
                    top: 0rem; } //removed superscripting for numerical reference in sidenote
 
 // Fixes images in popup boxes from Google Translate
