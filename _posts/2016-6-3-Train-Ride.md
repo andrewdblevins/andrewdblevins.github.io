@@ -24,6 +24,7 @@ title: Singapore to Scotland by train
 
 
 This is the route we ended up taking. From Singapore to Scotland by train. All told we did well over 11000 miles by train.
+{% include image.html url="http://54.89.240.231:8888/" %}
 
 {% include image.html file="Singapore+to+Scotland/IMG_20160109_134016.jpg" caption="Singapore is an interesting place, they have ships on buildings and mountains in domes." %}
 
