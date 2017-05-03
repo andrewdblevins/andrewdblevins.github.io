@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Singapore
+category: Travel
 ---
 
 Arrival in Singapore
