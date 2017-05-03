@@ -1,3 +1,9 @@
+---
+layout: post
+title: Malaysia
+category: Travel
+---
+
 ## Our first major train
 
 From Johor, we hopped onto a train to Kuala Lumpur. I thought I had grabbed the front most seats, but instead I got the rear most seats. This gave us a fine view out the back.
