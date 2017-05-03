@@ -1,3 +1,8 @@
+---
+layout: post
+title: Monoids
+---
+
 Arrival in Singapore
 
 After a lovely 20 hour flight, including a 1 hour stop in Seoul, we landed in Singapore. Customs was super easy, They let us walk thru without a word. We landed at 2am local time, but since they have a couple hotels inside the airport, we had no trouble getting to our room.
@@ -8,7 +13,8 @@ Singapore and Air-Conditioning
 
 The first thing I noticed about Singapore is that it is hot. Situated almost right on the equator, Singapore is hot and muggy. 47% of all energy used in Singapore is devoted to cooling.
 
-IMG_20160107_160818
+{% include image.html file="Singapore+to+Scotland/IMG_20160107_160818.jpg" caption="Singapore runs on AC" %}
+
 just look at all those AC units
 Gardens by the bay is a large botanical garden near the heart of Singapore. It features a grove of 'Super Trees', and two large domed conservatories. In San Francisco there is a tropical flower conservatory. So when I think of a conservatory I think of glass houses designed to be more hot and humid than the outside so plants that need that can survive. So being in Singapore I was kinda dreading these conservatories, because what could possibly need to be hotter and more humid than Singapore already was. But people had highly recommended the conservatories, so we bought tickets and went.
 
