@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Singapore to Scotland by train
+category: Travel
 ---
 
 
