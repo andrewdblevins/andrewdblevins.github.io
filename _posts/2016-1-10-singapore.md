@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Monoids
+title: Singapore
 ---
 
 Arrival in Singapore
