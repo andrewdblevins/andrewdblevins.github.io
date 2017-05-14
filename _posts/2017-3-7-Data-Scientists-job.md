@@ -1,12 +1,15 @@
-# What is your job as a data scientist?
+---
+layout: post
+title: The Real job of a data scientist
+---
 
-on the surface it is many things. You will be many things at different times. An engineer, an evengelist, a web dev and a database manager. Sometime you will be a SQL monkey, other times a PM. You will build data products and (semi)intelligent systems. You will make machines able to learn and then teach them. You will clean data (so much cleaning)
+On the surface a data scientist does many things. You will be many things at different times. An engineer, an evengelist, a web dev and a database manager. Sometime you will be a SQL monkey, other times a PM. You will build data products and (semi)intelligent systems. You will make machines able to learn and then teach them. You will clean data (so much cleaning).
 
 More and more Data Science roles are split between the Insights Data Scientist who deals with helping stakeholders make rational decisions on real data and the Machine Learning Engineers.
 
 There is an open question about what a data scientist is. Much argument probably comes from the fact that so much of this seems disparate and unrelated.
 
-let me tell you what I think defines the data scientist.
+let me tell you what I think defines the role data scientist.
 
 But I want to talk about Donald Rumsfeld and WMDs
 
