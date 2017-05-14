@@ -21,7 +21,7 @@ html {
 
 body {
   background: $white;
-  color: $darkGray;
+  color: $black;
   margin: 1em auto 4em auto;
   position: relative;
   width: 960px;
@@ -34,7 +34,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $darkerGray;
+  color: $black;
   font-weight: bold;
 
   line-height: 1.7;
@@ -172,11 +172,11 @@ figure {
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
-  background: $lightGray;
+  background: $gray;
 }
 ::selection {
   color: $black;
-  background: $lightGray;
+  background: $gray;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -205,7 +205,7 @@ figure {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $gray;
 
   @include mobile {
     text-align: center;
@@ -292,7 +292,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $gray;
   float: left;
 }
 
@@ -325,7 +325,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: $gray;
 }
 
 footer {
