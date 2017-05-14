@@ -22,7 +22,7 @@ html {
 body {
 	background: $white;
   color: $darkGray;
-	  margin: 1em auto 4em auto;
+  margin: 1em auto 4em auto;
   position: relative;
   width: 960px;
 }
@@ -293,6 +293,7 @@ nav {
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
+  float: left;
 }
 
 .posts > .post:last-child {
