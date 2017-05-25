@@ -1,0 +1,119 @@
+<svg class="chart" width="720" height="120">
+</svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+var palette = ['#95BF74', '#659B5E', '#556F44', '#79C7C5', '#283F3B']
+var c = 1;
+
+var data = [
+{ x: -200,
+  label: 0,
+  t:'int'
+},
+{
+  x: -100,
+  label: 1,
+  t:'int'
+}, {
+  x: 0,
+  label: 2,
+  t:'int'
+}, {
+  x: 100,
+  label: 3,
+  t:'int'
+}, {
+  x: 200,
+  label: 3,
+  t:'int'
+}];
+
+var width = 500;
+var height = 500;
+
+//Create SVG
+var svg = d3.select(".chart")
+  .attr("width", width)
+  .attr("height", height)
+  .append("g")
+  .style("filter", "url(#gooey)") //Set the filter on the container svg
+  .attr("transform", "translate(" + (width / 2) + "," + (height / 2) + ")");
+
+//SVG filter for the gooey effect
+//Code taken from http://tympanus.net/codrops/2015/03/10/creative-gooey-effects/
+var defs = svg.append('defs');
+var filter = defs.append('filter').attr('id', 'gooey');
+filter.append('feGaussianBlur')
+  .attr('in', 'SourceGraphic')
+  .attr('stdDeviation', '10')
+  .attr('result', 'blur');
+filter.append('feColorMatrix')
+  .attr('in', 'blur')
+  .attr('mode', 'matrix')
+  .attr('values', '1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9')
+  .attr('result', 'gooey');
+filter.append('feComposite')
+  .attr('in', 'SourceGraphic')
+  .attr('in2', 'goo')
+  .attr('operator', 'atop');
+
+
+var elem = svg.selectAll('g')
+  .data(data)
+  
+var elemEnter = elem.enter()
+	.append('g')
+  .attr("transform",function(d){return "translate("+d.x+",0)"})
+  
+var circles = elemEnter.append('circle')
+  .attr('r', 30)
+  .attr('fill', '#79C7C5')
+  
+	elemEnter.append('text')
+  .text(function(d,i){return i})
+  .attr('dx',-4)
+  .attr('dy',8);
+  
+  
+animate();
+
+
+
+function animate(){
+	elemEnter
+   .transition()
+  .duration(100)
+  .delay(100)
+  .attr('transform', function(d,i){if(i<0){d.x+=100;} return "translate("+d.x+",0)"})
+     .transition()
+  .duration(1000)
+  .delay(1000)
+  .attr('transform', function(d,i){if(i<1){d.x+=100;} return "translate("+d.x+",0)"})
+     .transition()
+  .duration(1000)
+  .delay(1000)
+  .attr('transform', function(d,i){if(i<2){d.x+=100;} return "translate("+d.x+",0)"})
+     .transition()
+  .duration(1000)
+  .delay(1000)
+  .attr('transform', function(d,i){if(i<3){d.x+=100;} return "translate("+d.x+",0)"})
+     .transition()
+  .duration(1000)
+  .delay(100)
+  .attr('transform', function(d,i){if(i<4){d.x+=100;} return "translate("+d.x+",0)"})
+  .transition()
+  .duration(1000)
+  .delay(100)
+    .attr('transform', function(d,i){if(i<5){d.x+=100;} return "translate("+d.x+",0)"})
+  .style('opacity',0)
+  .transition()
+  .duration(1000)
+  .delay(1000)
+  .attr('cx', function(d,i){d.x = 100*(i-2); return "translate("+d.x+",0)"})
+  .transition()
+  .duration(1000)
+  .delay(1000)
+  .style('opacity',1)
+  .on("end",animate)
+}
+</script>
