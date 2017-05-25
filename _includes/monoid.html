@@ -1,4 +1,4 @@
-<svg class="chart" width="720" height="120">
+<svg class="{{include.name}}" width="{{include.width}}" height="{{include.height}}">
 </svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
@@ -28,11 +28,11 @@ var data = [
   t:'int'
 }];
 
-var width = 720;
-var height = 120;
+var width = {{include.width}};
+var height = {{include.height}};
 
 //Create SVG
-var svg = d3.select(".chart")
+var svg = d3.select(".{{include.name}}")
   .attr("width", width)
   .attr("height", height)
   .append("g")
