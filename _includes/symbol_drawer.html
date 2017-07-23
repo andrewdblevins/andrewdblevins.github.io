@@ -680,6 +680,13 @@ function WilkinsSymbol(type, size) {
     return d3.svg.customSymbol().type(type).size(size)();
   }
 }
+	
+	    var div = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);
+	
+	
+	
                 var symb = d3.selectAll('.symb')
                 	.attr('width',40)
                 	.attr('height',20)
@@ -689,5 +696,18 @@ function WilkinsSymbol(type, size) {
                   })
                   .attr('fill', 'transparent')
                		.attr('transform','translate(20,10)')
-                  .attr('class', 'animatedsymb');
+                  .attr('class', 'animatedsymb')
+			.on("mouseover", function(d) {
+       div.transition()
+         .duration(200)
+         .style("opacity", .9);
+       div.html(d.word)
+         .style("left", (d3.event.pageX) + "px")
+         .style("top", (d3.event.pageY - 28) + "px");
+       })
+     .on("mouseout", function(d) {
+       div.transition()
+         .duration(500)
+         .style("opacity", 0);
+       });
   </script>
