@@ -7,7 +7,7 @@ By Jorge Luis Borges
 *Translated from the Spanish 'El idioma analítico de John Wilkins' by Lilia Graciela Vázquez*
 
 *Illustrated and Annotated in D3 by Andrew Blevins*
-{% include symbol_drawer.html%}
+
 
 >I have noticed that the 14th edition of Encyclopedia Britannica does not include the article on John Wilkins. This omission can be considered justified if we remember how trivial this article was (20 lines of purely biographical data: Wilkins was born in 1614, Wilkins died in 1672, Wilkins was chaplain of Charles Louis, Elector Palatine; Wilkins was principal of one of Oxford's colleges, Wilkins was the first secretary of the Royal Society of London, etc.); it is an error if we consider the speculative works of Wilkins. He was interested in several different topics: theology, cryptography, music, the building of transparent beehives, the orbit of an invisible planet, the possibility of a trip to the moon, the possibility and principles of an universal language. To this latter problem he dedicated the book 'An Essay Towards a Real Character and a Philosophical Language' (600 pages in large quarto, 1668). There are no copies of this book in our National Library, I have consulted, to write the present article, 'The Life and Times of John Wilkins' (1910), by P. A. Wright Henderson; the 'Wörterbuch der Philosophie' (1935), by Fritz Mauthner; 'Delphos' (1935), by E. Sylvia Pankhurst; 'Dangerous Thoughts' (1939), by Lancelot Hogben.
 >
@@ -31,3 +31,4 @@ By Jorge Luis Borges
 >Leaving hopes and utopias apart, probably the most lucid ever written about language are the following words by Chesterton: "He knows that there are in the soul tints more bewildering, more numberless, and more nameless than the colours of an autumn forest... Yet he seriously believes that these things can every one of them, in all their tones and semitones, in all their blends and unions, be accurately represented by an arbitrary system of grunts and squeals. He believes that an ordinary civilized stockbroker can really produce out of this own inside noises which denote all the mysteries of memory and all the agonies of desire" (G. F. Watts, page 88, 1904).
 
 
+{% include symbol_drawer.html%}
