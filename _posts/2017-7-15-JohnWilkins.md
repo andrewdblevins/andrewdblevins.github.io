@@ -28,4 +28,4 @@ The impossibility of penetrating the divine pattern of the universe cannot stop 
 
 Leaving hopes and utopias apart, probably the most lucid ever written about language are the following words by Chesterton: "He knows that there are in the soul tints more bewildering, more numberless, and more nameless than the colours of an autumn forest... Yet he seriously believes that these things can every one of them, in all their tones and semitones, in all their blends and unions, be accurately represented by an arbitrary system of grunts and squeals. He believes that an ordinary civilized stockbroker can really produce out of this own inside noises which denote all the mysteries of memory and all the agonies of desire" (G. F. Watts, page 88, 1904).
 
-{% include symbol_drawer.html}
+{% include symbol_drawer.html%}
