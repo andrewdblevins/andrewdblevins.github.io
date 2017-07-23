@@ -1,5 +1,20 @@
 <div class='beasts'></div>
-<script>
+<style><>
+	<script>
+.node text { font: 12px sans-serif;  }
+
+.node--internal text {
+  text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke: #111;
+  stroke-width: 1px;
+  opacity:.2;	
+}
+</style>
+
 var data = {
 	"name": "Beast",
 	"taxtype": "Genus",
