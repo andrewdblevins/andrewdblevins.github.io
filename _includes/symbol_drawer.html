@@ -2,8 +2,8 @@
 <script>
 
  var symb = d3.selectAll('.symb')
-     .attr('width', 40)
-     .attr('height', 20)
+     .attr('width', 45)
+     .attr('height', 25)
      .append('path')
      .attr('d', function(d) {
          return WilkinsSymbol(this.parentElement.getAttribute("name"), 200);
