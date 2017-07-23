@@ -1,0 +1,15 @@
+<script>
+                var id = 'element'
+
+                d3.select('#'+id)
+                	.attr('height',30)
+                	.attr('width',70)
+                  .append('path')
+                  .attr('transform', function(d, i) {
+                    return 'translate(35,15)';
+                  })
+                  .attr('d', WilkinsSymbol(id, 400))
+                  .attr('fill', 'transparent')
+                  .attr('class', 'animatedsymb');
+    
+  </script>
