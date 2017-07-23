@@ -4,7 +4,7 @@ title: THE ANALYTICAL LANGUAGE OF JOHN WILKINS
 ---
 By Jorge Luis Borges
 
-*Translated from the Spanish 'El idioma analítico de John Wilkins' by Lilia Graciela Vázquez; edited by Jan Frederik Solem with assistance from Bjørn Are Davidsen and Rolf Andersen. A translation by Ruth L. C. Simms can be found in Jorge Luis Borges, 'Other inquisitions 1937-1952' (University of Texas Press, 1993)*
+*Translated from the Spanish 'El idioma analítico de John Wilkins' by Lilia Graciela Vázquez
 
 *Illustrated and Annotated in D3 by Andrew Blevins*
 
