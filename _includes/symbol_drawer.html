@@ -695,5 +695,5 @@
      .attr('fill', 'transparent')
      .attr('transform', 'translate(20,10)')
      .attr('class', 'animatedsymb')
-     .attr('title',pronounce(this.parentElement.getAttribute("name")))
+     .attr('title',function(d) { pronounce(this.parentElement.getAttribute("name"))})
   </script>
