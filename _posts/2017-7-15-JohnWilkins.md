@@ -4,7 +4,7 @@ title: THE ANALYTICAL LANGUAGE OF JOHN WILKINS
 ---
 By Jorge Luis Borges
 
-*Translated from the Spanish 'El idioma analítico de John Wilkins' by Lilia Graciela Vázquez
+*Translated from the Spanish 'El idioma analítico de John Wilkins' by Lilia Graciela Vázquez*
 
 *Illustrated and Annotated in D3 by Andrew Blevins*
 
